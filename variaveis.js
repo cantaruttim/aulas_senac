@@ -1,3 +1,4 @@
+// 1. QUAL A DIFERENÇA ENTRE VAR, LET E CONST?
 
 const PI = 3.14;
 console.log("Value of PI:", PI);
@@ -15,3 +16,4 @@ console.log(typeof(PI));
 console.log(typeof(radius));
 console.log(typeof(area));
 console.log(typeof(nome));
+
