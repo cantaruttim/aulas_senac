@@ -17,3 +17,17 @@ console.log(typeof(radius));
 console.log(typeof(area));
 console.log(typeof(nome));
 
+
+// 2. COMO PODEMOS REALIZAR A ENTRADA DE DADOS?
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question("Digite seu nome: ", function(nome) {
+  console.log("Olá, " + nome + "!");
+  rl.close();
+});
