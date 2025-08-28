@@ -17,11 +17,17 @@ console.log(typeof(radius));
 console.log(typeof(area));
 console.log(typeof(nome));
 
+// 2. SERÁ QUE PODEMOS MUDAR O TIPO DE UMA VARIÁVEL?
+let entrada = "42";
+console.log("Tipo do dado de entrada",typeof(entrada));
+let numero = Number(entrada);
+console.log("Número:", numero);
+console.log("Tipo do dado de saida",typeof(numero));
 
-// 2. COMO PODEMOS REALIZAR A ENTRADA DE DADOS?
+const { Console } = require('console');
+// 3. COMO PODEMOS REALIZAR A ENTRADA DE DADOS?
 
 const readline = require('readline');
-
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
